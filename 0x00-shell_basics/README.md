@@ -14,5 +14,6 @@ mv betty /tmp/myfirstdirectory-script to Move the file
 
 rm /temp/8-firstdelete/betty -remove betty
 
-rmdir /tmp/my_first_directory 
+rmdir /tmp/my_first_directory
 
+cd .. - changes the working directory to the previous one. 
