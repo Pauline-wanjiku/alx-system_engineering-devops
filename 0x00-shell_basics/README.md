@@ -11,3 +11,6 @@ ls -a -l -Display current directory contents, including hidden files (starting w
 mkdir- /tmp/myfirstdirectory-script that creates a directory named myfirstdirectory in the /tmp/ directory.
 
 mv betty /tmp/myfirstdirectory-script to Move the file 
+
+rm /temp/8-firstdelete/betty -remove betty
+
