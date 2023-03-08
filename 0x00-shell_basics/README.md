@@ -22,4 +22,6 @@ cd .. - changes the working directory to the previous one.
 
 file iamafile- script to print type of file
 
-`ln -s /bin/ls __ls__ ` script to createe symbolic link 
+ln -s /bin/ls __ls__ : script to createe symbolic link
+
+mkdir welcome/ welcome/to/ welcome/to/school: script to create directories 
