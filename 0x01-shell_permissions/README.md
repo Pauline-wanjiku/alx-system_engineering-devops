@@ -11,6 +11,11 @@
   		```id -u -n```
 
 3. print all the groups the current user is part of.
-	
+
+		```id Gn```	
 		```groups```
+
+4. change the file owner (e.g hello to the user betty).
+
+		```sudo chown betty hello```
 
