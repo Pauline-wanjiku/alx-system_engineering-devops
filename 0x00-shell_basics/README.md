@@ -8,6 +8,11 @@ ls -l -Display current directory contents in a long format
 
 ls -a -l -Display current directory contents, including hidden files (starting with .)using the long format.
 
+ls -na-Display current directory contents.
+
+Long format
+with user and group IDs displayed numerically
+And hidden files (starting with .)
 mkdir- /tmp/myfirstdirectory-script that creates a directory named myfirstdirectory in the /tmp/ directory.
 
 mv betty /tmp/myfirstdirectory-script to Move the file 
@@ -24,4 +29,11 @@ file iamafile- script to print type of file
 
 ln -s /bin/ls __ls__ : script to createe symbolic link
 
-mkdir welcome/ welcome/to/ welcome/to/school: script to create directories 
+mkdir welcome/ welcome/to/ welcome/to/school: script to create directories
+
+cp  -un *.html ../- script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+mv [A-Z]* /tmp/u-Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+You can assume that the directory /tmp/u will exist when we will run your script
+
+
