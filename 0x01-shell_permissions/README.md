@@ -1,6 +1,12 @@
 # Shell permission
 ### Scripts
-Switch the current user to another user(betty)
+1. Switch the current user to another user(betty)
 
 ```su betty```
+
+2. print username of current user
+
+```id -u -n```
+
+
 
