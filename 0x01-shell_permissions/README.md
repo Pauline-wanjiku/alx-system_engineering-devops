@@ -19,3 +19,10 @@
 
 		```sudo chown betty hello```
 
+5.create an empty file called (e.g hello)
+
+		```touch hello```
+
+6.add execute permission to the owner of the file (e.g hello).
+
+		```chmod u+x hello```
