@@ -77,4 +77,6 @@
 
 		```chown --from=guillaume betty hello```
 
+18. Script that will play the StarWars IV episode in the terminal.
 
+		```telnet towel.blinkenlights.nl```
