@@ -43,3 +43,6 @@
 
 		```chmod 007 hello```
 
+10. set the mode of the file hello to this:-rwxr-x-wx
+ 
+		```chmod 753 hello```
