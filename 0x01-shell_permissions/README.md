@@ -46,3 +46,14 @@
 10. set the mode of the file hello to this:-rwxr-x-wx
  
 		```chmod 753 hello```
+
+11. sets the mode of the file hello the same as olleh’s mode.
+
+		```chmod 644 hello```
+
+12.  adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+		
+		```chmod -R a+x /0x01-shell_permissions```
+
+
+
