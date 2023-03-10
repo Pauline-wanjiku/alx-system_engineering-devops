@@ -73,5 +73,8 @@
 * The file _hello is a symbolic link
 
 		```chown -h vincent:staff  _hello```
+17. changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+		```chown --from=guillaume betty hello```
 
 
