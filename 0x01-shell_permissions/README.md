@@ -53,7 +53,7 @@
 
 12.  adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 		
-		```chmod -R a+x /0x01-shell_permissions```
+		```chmod -R ugo+x```
 
 13. create a directory called my_dir with permissions 751 in the working directory.
 
