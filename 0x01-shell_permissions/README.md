@@ -55,5 +55,12 @@
 		
 		```chmod -R a+x /0x01-shell_permissions```
 
+13. create a directory called my_dir with permissions 751 in the working directory.
+
+		``` mkdir -m 751 my_dir```
+
+14. change the group owner to school for the file hello
+		```chgrp school hello```
+
 
 
