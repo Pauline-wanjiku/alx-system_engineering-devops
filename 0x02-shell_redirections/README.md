@@ -14,3 +14,10 @@ echo -e \#\!/bin/bash "\nHello, World\n" > 0-hello_world
 
 "\"(Ôo)'"
 ```
+
+#### 2. Let's display a file
+**Display the content of the /etc/passwd file.**
+
+```
+cat /etc/passwd
+```
