@@ -27,3 +27,9 @@ cat /etc/passwd
 ```
 cat /etc/passwd /etc/hosts
 ```
+####4. Last lines of a file
+**Display the last 10 lines of /etc/passwd**
+
+```
+tail -n 10 /etc/passwd
+```
