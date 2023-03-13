@@ -7,3 +7,10 @@
 ```
 echo -e \#\!/bin/bash "\nHello, World\n" > 0-hello_world
 ```
+
+#### 1. Confused smiley
+**script that displays a confused smiley "(Ôo)'**
+```
+
+"\"(Ôo)'"
+```
