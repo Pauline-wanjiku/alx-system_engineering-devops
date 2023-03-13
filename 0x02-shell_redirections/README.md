@@ -21,3 +21,9 @@ echo -e \#\!/bin/bash "\nHello, World\n" > 0-hello_world
 ```
 cat /etc/passwd
 ```
+####3. What about 2?
+**Display the content of /etc/passwd and /etc/hosts**
+
+```
+cat /etc/passwd /etc/hosts
+```
