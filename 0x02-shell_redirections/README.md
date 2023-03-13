@@ -84,7 +84,7 @@ Hidden directories should be counted
 find . -type d ! -path . |wc -l
 ```
 
-### 12. What’s new
+#### 12. What’s new
 Create a script that displays the 10 newest files in the current directory.
 
 Requirements:
@@ -94,5 +94,16 @@ Sorted from the newest to the oldest
 
 ```
 #!/bin/bash
-ls -lt | head | sort -nr
+ls -t | head 
+```
+#### Being unique is better than being perfect
+script that takes a list of words as input and prints only words that appear exactly once.
+
+Input format: One line, one word
+Output format: One line, one word
+Words should be sorted
+
+```
+
+cat list |sort | uniq -u     
 ```
