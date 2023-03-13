@@ -130,3 +130,45 @@ Display lines containing the pattern “root” and 3 lines after them in the fi
 #!/bin/bash
 grep -A 3 "root" /etc/passwd
 ```
+17. I hate bins
+**Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.**
+```
+#!/bin/bash
+grep -v "bin" /etc/passwd
+```
+
+18. Letters only please
+**Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+include capital letters as well**
+```
+#!/bin/bash
+grep ^[:alpha:] /etc/ssh/sshd_config
+```
+
+19. A to Z
+**Replace all characters A and c from input to Z and e respectively.**
+```
+#!/bin/bash
+tr 'Ac' 'Ze'
+```
+
+20. Without C, you would live in hiago
+**script that removes all letters c and C from input.**
+```
+#!/bin/bash
+sed 'c/C//'
+```
+
+21. esreveR
+**script that reverse its input.**
+```
+#!/bin/bash
+rev 
+```
+
+22. DJ Cut Killer
+**script that displays all users and their home directories, sorted by users.**
+```
+#!/bin/bash
+cat /etc/passwd | cut -d: -f1,6 | sort
+```
