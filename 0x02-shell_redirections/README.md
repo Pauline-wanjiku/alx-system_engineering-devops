@@ -40,9 +40,16 @@ tail -n 10 /etc/passwd
 #!/bin/bash
 head -n 10 /etc/passwd
 ```
-####6-third_line
+#### 6-third_line
 **script that displays the third line of the file**
 ```
 #!/bin/bash
 cat iacta |head -3 | tail -1
+```
+#### 7-file
+**script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.**
+```
+#!/bin/bash
+echo -e "Best School\n" > \\\*\\'"Best School"\'\\*$\?\*\*\*\*\*:\)
+
 ```
