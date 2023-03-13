@@ -105,5 +105,5 @@ Words should be sorted
 
 ```
 
-cat list |sort | uniq -u     
+sort | uniq -u     
 ```
