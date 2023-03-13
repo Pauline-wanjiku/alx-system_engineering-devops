@@ -114,3 +114,11 @@ sort | uniq -u
 grep ^root /etc/passwd
 
 ```
+
+#### 15. Count that word
+Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+
+````
+grep -c "bin" /etc/passwd        
+
+```
