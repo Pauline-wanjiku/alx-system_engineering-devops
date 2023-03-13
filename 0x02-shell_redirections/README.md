@@ -96,7 +96,7 @@ Sorted from the newest to the oldest
 #!/bin/bash
 ls -t | head 
 ```
-#### Being unique is better than being perfect
+#### 13. Being unique is better than being perfect
 script that takes a list of words as input and prints only words that appear exactly once.
 
 Input format: One line, one word
@@ -106,4 +106,11 @@ Words should be sorted
 ```
 
 sort | uniq -u     
+```
+
+#### 14. It must be in that file
+
+```
+grep ^root /etc/passwd
+
 ```
