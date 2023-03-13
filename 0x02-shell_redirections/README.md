@@ -40,3 +40,9 @@ tail -n 10 /etc/passwd
 #!/bin/bash
 head -n 10 /etc/passwd
 ```
+####6-third_line
+**script that displays the third line of the file**
+```
+#!/bin/bash
+cat iacta |head -3 | tail -1
+```
