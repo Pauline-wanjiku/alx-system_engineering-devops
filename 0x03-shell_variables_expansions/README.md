@@ -24,7 +24,7 @@ export PATH=$PATH:/action
 3. If the path be beautiful, let us not ask where it leads
 script that counts the number of directories in the PATH.
 ```
-!/bin/bash
+#!/bin/bash
 echo $PATH | tr -s ':' '\n' | wc -l
 ```
 4. Global variables
