@@ -32,3 +32,9 @@ echo $PATH | tr -s ':' '\n' | wc -l
 ```
 printenv
 ```
+5. Local variables
+**script that lists all local variables and environment variables, and functions.**
+```
+#!/bin/bash
+set
+```
